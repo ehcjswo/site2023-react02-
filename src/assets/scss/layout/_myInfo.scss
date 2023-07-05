@@ -1,0 +1,64 @@
+.myInfo {
+    display: grid;
+    grid-template-columns: 100%;
+}
+.myInfo_name h2{
+    margin-bottom: 1.875rem;
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+.myInfo_name span {
+    color: #0078ff;
+}
+.myInfo_box {
+    display: grid;
+    height: max-content;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.myInfo_box a{
+    position: relative;
+    height: 100%;
+    padding: 1.75rem 1.8125rem 1.5rem;
+    background-color: #eef6ff;
+    border-radius: 0.625rem;
+}
+.myInfo_box_shild {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5625rem;
+    word-break: keep-all;
+}
+.myInfo_box .myInfo_box2 p {
+    color: #0078ff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+.myInfo_box .myInfo_box3 {
+    display: flex;
+    align-items: flex-end;
+}
+.myInfo_box .myInfo_box3 span {
+    position: relative;
+    top: 0.125rem;
+    margin-right: 0.3125rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.myInfo_box .myInfo_box3 em {
+    margin-right: 0.5625rem;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    word-break: keep-all;
+    font-weight: 300;
+}
+.myInfo_box img {
+    position: absolute;
+    right: 0.4375rem;
+    bottom: 0.875rem;
+    width: 5.75rem;
+}

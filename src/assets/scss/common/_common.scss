@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    font-family: "Noto Sans KR";
+    color: #000;
+}
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+em {
+    font-style: normal;
+}
+img {
+    vertical-align: top;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.pt {
+    padding-top: 5.625rem;
+}
+.h2mb {
+    margin-bottom: 2.375rem;
+    font-size: 1.5625rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+.h3mb {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-bottom: 0.875rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.h3mb span {
+    color: #0078ff;
+}
+.btn1 {
+    display: flex;
+    width: 18.75rem;
+    max-width: 100%;
+    height: 2.875rem;
+    align-items: center;
+    justify-content: center;
+    border: 0.0625rem solid #d7e2eb;
+    border-radius: 0.25rem;
+    margin-top: 0.75em;
+    background-color: #fbfbfd;
+    font-weight: 700;
+
+}
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d7e2eb;
+    background-color: #fbfbfd;
+    width: 100%;
+    height: 2.875rem;
+    border-radius: 0.25rem;
+    font-weight: 700;
+}
