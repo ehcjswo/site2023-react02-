@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Header = (props) => {
   return (
@@ -9,14 +10,14 @@ const Header = (props) => {
             </div>
             <div className="header_list">
                 <ul className="list_left">
-                    <li><a href="#">스쿨</a></li>
-                    <li><a href="#">커리어</a></li>
-                    <li><a href="#">커뮤니티</a></li>
+                    <li><Link to="/">스쿨</Link></li>
+                    <li><Link to="/">커리어</Link></li>
+                    <li><Link to="/">커뮤니티</Link></li>
                 </ul>
                 <ul className="list_right">
-                    <li><a href="#">스킬체크</a></li>
-                    <li><a href="#">코딩테스트 연습</a></li>
-                    <li><a href="#">코딩역량인증시험</a></li>
+                    <li><Link to="/">스킬체크</Link></li>
+                    <li><Link to="/">코딩테스트 연습</Link></li>
+                    <li><Link to="/">코딩역량인증시험</Link></li>
                 </ul>
             </div>
         </div>

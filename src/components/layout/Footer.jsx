@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
                 <button className="family" aria-label="패밀리 사이트 선택"><span className="i_POFD3q612sN8PqLk0G">패밀리사이트</span><svg width="8" height="5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4.866l-4-4h8l-4 4z" fill="#263747"></path></svg></button>
             </div>
             <div className="footer_mid">
-                <a href="#">2023 프로그래머스</a>
+                <Link to="/">2023 프로그래머스</Link>
                 <p>(주)그렙 / 대표 임성수 / 서울특별시 서초구 강남대로 327, 2층 프로그래머스(서초동, 대륭서초타워) / 사업자등록번호 220-88-75699 / 통신판매업신고 제 2014-서울강남-03241호<br/> / 직업정보제공사업 신고번호 J1200020180027 / (주)그렙은 통신판매중개자로서, 통신판매의 당사자가 아니며 중개하는 콘텐츠 및 거래에 대한 책임을 부담하지 않습니다. 단, (주)<br/>그렙이 직접 제공하는 콘텐츠에 대해서는 책임을 부담합니다. 프로그래머스 사이트의 모든 콘텐츠, 정보, UI, HTML 소스 등에 대한 무단 복제, 전송, 배포, 크롤링, 스크래핑 등의 행위<br/>를 거부하며, 이러한 행위는 관련 법령에 의해 엄격히 금지됩니다.</p>
             </div>
             <div className="footer_bottom">
