@@ -1,6 +1,6 @@
 ## react.js를 사용한 사이트 만들기
 
-<img src="https://raw.githubusercontent.com/ehcjswo/site2023-react01-/main/src/assets/images/intro/gitImg01.jpg" />
+<img src="https://raw.githubusercontent.com/ehcjswo/site2023-react02-/main/src/assets/images/gitImg01.jpg" />
 <br><br>
  
 - 이 사이트는 React를 기반으로 만든 사이트로, 셰프와 요리에 대한 정보를 모아두었습니다.
